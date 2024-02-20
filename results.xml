@@ -1,0 +1,289 @@
+<testsuites id="" name="" tests="3" failures="3" skipped="0" errors="0" time="196.05">
+<testsuite name="addToCart.test.ts" timestamp="1708392040071" hostname="" tests="1" failures="1" skipped="0" time="195.354" errors="0">
+<testcase name="Add to Cart" classname="[Chrome] › addToCart.test.ts:11:1 › Add to Cart" time="195.354">
+<failure message="addToCart.test.ts:11:1 Add to Cart" type="FAILURE">
+  [Chrome] › addToCart.test.ts:11:1 › Add to Cart ==================================================
+
+    Timeout of 90000ms exceeded.
+
+    Pending operations:
+      - page.waitForSelector at pages/basePage.ts:30:19
+
+    page.waitForSelector: Target closed
+    =========================== logs ===========================
+    waiting for selector "#homefeatured > li.last-mobile-line > div > div.right-block > h5 > a" to be visible
+    ============================================================
+
+      18 |
+      19 | 	await test.step('click on 20% discuont listed Item', async () => {
+    > 20 | 		await addToCartPage.printedChiffonDress()
+         | 		                    ^
+      21 | 		await addToCartPage.clickChiffonDress()
+      22 | 	})
+      23 |
+
+        at AddToCartPage.isElementVisible (/Users/minhvo/Documents/Playwright-Test-Runner-TypeScript/pages/basePage.ts:30:19)
+        at AddToCartPage.printedChiffonDress (/Users/minhvo/Documents/Playwright-Test-Runner-TypeScript/pages/addToCartPage.ts:18:14)
+        at /Users/minhvo/Documents/Playwright-Test-Runner-TypeScript/tests/addToCart.test.ts:20:23
+        at /Users/minhvo/Documents/Playwright-Test-Runner-TypeScript/tests/addToCart.test.ts:19:13
+
+    attachment #1: video (video/webm) --------------------------------------------------------------
+    test-results/addToCart-Add-to-Cart-Chrome/25a53b893ae9a9b72eefad1adee4a5d9.webm
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: trace (application/zip) ---------------------------------------------------------
+    test-results/addToCart-Add-to-Cart-Chrome/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/addToCart-Add-to-Cart-Chrome/trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    attachment #3: screenshot (image/png) ----------------------------------------------------------
+    test-results/addToCart-Add-to-Cart-Chrome/test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+
+    Retry #1 ---------------------------------------------------------------------------------------
+
+    Timeout of 90000ms exceeded.
+
+    Pending operations:
+      - page.waitForSelector at pages/basePage.ts:30:19
+
+    page.waitForSelector: Target closed
+    =========================== logs ===========================
+    waiting for selector "#homefeatured > li.last-mobile-line > div > div.right-block > h5 > a" to be visible
+    ============================================================
+
+      18 |
+      19 | 	await test.step('click on 20% discuont listed Item', async () => {
+    > 20 | 		await addToCartPage.printedChiffonDress()
+         | 		                    ^
+      21 | 		await addToCartPage.clickChiffonDress()
+      22 | 	})
+      23 |
+
+        at AddToCartPage.isElementVisible (/Users/minhvo/Documents/Playwright-Test-Runner-TypeScript/pages/basePage.ts:30:19)
+        at AddToCartPage.printedChiffonDress (/Users/minhvo/Documents/Playwright-Test-Runner-TypeScript/pages/addToCartPage.ts:18:14)
+        at /Users/minhvo/Documents/Playwright-Test-Runner-TypeScript/tests/addToCart.test.ts:20:23
+        at /Users/minhvo/Documents/Playwright-Test-Runner-TypeScript/tests/addToCart.test.ts:19:13
+
+    attachment #1: video (video/webm) --------------------------------------------------------------
+    test-results/addToCart-Add-to-Cart-Chrome-retry1/46a9928f45b0ec1795f0536cfdc3a5cb.webm
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: trace (application/zip) ---------------------------------------------------------
+    test-results/addToCart-Add-to-Cart-Chrome-retry1/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/addToCart-Add-to-Cart-Chrome-retry1/trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    attachment #3: screenshot (image/png) ----------------------------------------------------------
+    test-results/addToCart-Add-to-Cart-Chrome-retry1/test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+
+</failure>
+<system-out>
+
+[[ATTACHMENT|../test-results/addToCart-Add-to-Cart-Chrome/25a53b893ae9a9b72eefad1adee4a5d9.webm]]
+
+[[ATTACHMENT|../test-results/addToCart-Add-to-Cart-Chrome/trace.zip]]
+
+[[ATTACHMENT|../test-results/addToCart-Add-to-Cart-Chrome/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/addToCart-Add-to-Cart-Chrome-retry1/46a9928f45b0ec1795f0536cfdc3a5cb.webm]]
+
+[[ATTACHMENT|../test-results/addToCart-Add-to-Cart-Chrome-retry1/trace.zip]]
+
+[[ATTACHMENT|../test-results/addToCart-Add-to-Cart-Chrome-retry1/test-failed-1.png]]
+
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="productNames.test.ts" timestamp="1708392040071" hostname="" tests="1" failures="1" skipped="0" time="195.523" errors="0">
+<testcase name="Validate Product Names Check Product Names Visible and Print it to Test Report" classname="[Chrome] › productNames.test.ts:9:2 › Validate Product Names › Check Product Names Visible and Print it to Test Report" time="195.523">
+<failure message="productNames.test.ts:9:2 Check Product Names Visible and Print it to Test Report" type="FAILURE">
+  [Chrome] › productNames.test.ts:9:2 › Validate Product Names › Check Product Names Visible and Print it to Test Report 
+
+    Timeout of 90000ms exceeded.
+
+    Pending operations:
+      - page.waitForSelector at pages/basePage.ts:30:19
+
+    page.waitForSelector: Target closed
+    =========================== logs ===========================
+    waiting for selector "(//a[contains(text(),'Faded Short Sleeve T-shirts')])[1]" to be visible
+    ============================================================
+
+      23 | 			'Check the product name: Faded Short Sleeve T-shirts is visible',
+      24 | 			async () => {
+    > 25 | 				await landingPage.fadedShortSleeveTshirts()
+         | 				                  ^
+      26 | 			}
+      27 | 		)
+      28 |
+
+        at LandingPage.isElementVisible (/Users/minhvo/Documents/Playwright-Test-Runner-TypeScript/pages/basePage.ts:30:19)
+        at LandingPage.fadedShortSleeveTshirts (/Users/minhvo/Documents/Playwright-Test-Runner-TypeScript/pages/landingPage.ts:25:14)
+        at /Users/minhvo/Documents/Playwright-Test-Runner-TypeScript/tests/productNames.test.ts:25:23
+        at /Users/minhvo/Documents/Playwright-Test-Runner-TypeScript/tests/productNames.test.ts:22:14
+
+    attachment #1: video (video/webm) --------------------------------------------------------------
+    test-results/productNames-Validate-Product-Names-Check-Product-Names-Visible-and-Print-it-to-Test-Report-Chrome/f81ee7a4becd9a72548ea59c9d0c12f9.webm
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: trace (application/zip) ---------------------------------------------------------
+    test-results/productNames-Validate-Product-Names-Check-Product-Names-Visible-and-Print-it-to-Test-Report-Chrome/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/productNames-Validate-Product-Names-Check-Product-Names-Visible-and-Print-it-to-Test-Report-Chrome/trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    attachment #3: screenshot (image/png) ----------------------------------------------------------
+    test-results/productNames-Validate-Product-Names-Check-Product-Names-Visible-and-Print-it-to-Test-Report-Chrome/test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+
+    Retry #1 ---------------------------------------------------------------------------------------
+
+    Timeout of 90000ms exceeded.
+
+    Pending operations:
+      - page.waitForSelector at pages/basePage.ts:30:19
+
+    page.waitForSelector: Target closed
+    =========================== logs ===========================
+    waiting for selector "(//a[contains(text(),'Faded Short Sleeve T-shirts')])[1]" to be visible
+    ============================================================
+
+      23 | 			'Check the product name: Faded Short Sleeve T-shirts is visible',
+      24 | 			async () => {
+    > 25 | 				await landingPage.fadedShortSleeveTshirts()
+         | 				                  ^
+      26 | 			}
+      27 | 		)
+      28 |
+
+        at LandingPage.isElementVisible (/Users/minhvo/Documents/Playwright-Test-Runner-TypeScript/pages/basePage.ts:30:19)
+        at LandingPage.fadedShortSleeveTshirts (/Users/minhvo/Documents/Playwright-Test-Runner-TypeScript/pages/landingPage.ts:25:14)
+        at /Users/minhvo/Documents/Playwright-Test-Runner-TypeScript/tests/productNames.test.ts:25:23
+        at /Users/minhvo/Documents/Playwright-Test-Runner-TypeScript/tests/productNames.test.ts:22:14
+
+    attachment #1: video (video/webm) --------------------------------------------------------------
+    test-results/productNames-Validate-Product-Names-Check-Product-Names-Visible-and-Print-it-to-Test-Report-Chrome-retry1/ed0e68511984e2176b63c9b0d0be90b7.webm
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: trace (application/zip) ---------------------------------------------------------
+    test-results/productNames-Validate-Product-Names-Check-Product-Names-Visible-and-Print-it-to-Test-Report-Chrome-retry1/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/productNames-Validate-Product-Names-Check-Product-Names-Visible-and-Print-it-to-Test-Report-Chrome-retry1/trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    attachment #3: screenshot (image/png) ----------------------------------------------------------
+    test-results/productNames-Validate-Product-Names-Check-Product-Names-Visible-and-Print-it-to-Test-Report-Chrome-retry1/test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+
+</failure>
+<system-out>
+
+[[ATTACHMENT|../test-results/productNames-Validate-Product-Names-Check-Product-Names-Visible-and-Print-it-to-Test-Report-Chrome/f81ee7a4becd9a72548ea59c9d0c12f9.webm]]
+
+[[ATTACHMENT|../test-results/productNames-Validate-Product-Names-Check-Product-Names-Visible-and-Print-it-to-Test-Report-Chrome/trace.zip]]
+
+[[ATTACHMENT|../test-results/productNames-Validate-Product-Names-Check-Product-Names-Visible-and-Print-it-to-Test-Report-Chrome/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/productNames-Validate-Product-Names-Check-Product-Names-Visible-and-Print-it-to-Test-Report-Chrome-retry1/ed0e68511984e2176b63c9b0d0be90b7.webm]]
+
+[[ATTACHMENT|../test-results/productNames-Validate-Product-Names-Check-Product-Names-Visible-and-Print-it-to-Test-Report-Chrome-retry1/trace.zip]]
+
+[[ATTACHMENT|../test-results/productNames-Validate-Product-Names-Check-Product-Names-Visible-and-Print-it-to-Test-Report-Chrome-retry1/test-failed-1.png]]
+
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="toggleProductColour.test.ts" timestamp="1708392040071" hostname="" tests="1" failures="1" skipped="0" time="179.999" errors="0">
+<testcase name="Toggle between the colours of the Product Toggle Workflow Test" classname="[Chrome] › toggleProductColour.test.ts:20:2 › Toggle between the colours of the Product › Toggle Workflow Test" time="179.999">
+<failure message="toggleProductColour.test.ts:20:2 Toggle Workflow Test" type="FAILURE">
+  [Chrome] › toggleProductColour.test.ts:20:2 › Toggle between the colours of the Product › Toggle Workflow Test 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    Expected: "My Store"
+    Received: "InMotion Hosting"
+
+      24 | 			await landingPage.getUrl()
+      25 | 			await landingPage.waitForPageLoad()
+    > 26 | 			expect(await landingPage.getTitle()).toEqual(title)
+         | 			                                     ^
+      27 | 			expect(await landingPage.getUrl()).toEqual(baseUrl)
+      28 | 		})
+      29 |
+
+        at /Users/minhvo/Documents/Playwright-Test-Runner-TypeScript/tests/toggleProductColour.test.ts:26:41
+        at TestTypeImpl._step (/Users/minhvo/Documents/Playwright-Test-Runner-TypeScript/node_modules/@playwright/test/lib/testType.js:214:7)
+        at /Users/minhvo/Documents/Playwright-Test-Runner-TypeScript/tests/toggleProductColour.test.ts:21:3
+        at WorkerRunner._runTestWithBeforeHooks (/Users/minhvo/Documents/Playwright-Test-Runner-TypeScript/node_modules/@playwright/test/lib/workerRunner.js:499:7)
+
+    attachment #1: trace (application/zip) ---------------------------------------------------------
+    test-results/toggleProductColour-Toggle-between-the-colours-of-the-Product-Toggle-Workflow-Test-Chrome/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/toggleProductColour-Toggle-between-the-colours-of-the-Product-Toggle-Workflow-Test-Chrome/trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: screenshot (image/png) ----------------------------------------------------------
+    test-results/toggleProductColour-Toggle-between-the-colours-of-the-Product-Toggle-Workflow-Test-Chrome/test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+
+    Retry #1 ---------------------------------------------------------------------------------------
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    Expected: "My Store"
+    Received: "InMotion Hosting"
+
+      24 | 			await landingPage.getUrl()
+      25 | 			await landingPage.waitForPageLoad()
+    > 26 | 			expect(await landingPage.getTitle()).toEqual(title)
+         | 			                                     ^
+      27 | 			expect(await landingPage.getUrl()).toEqual(baseUrl)
+      28 | 		})
+      29 |
+
+        at /Users/minhvo/Documents/Playwright-Test-Runner-TypeScript/tests/toggleProductColour.test.ts:26:41
+        at TestTypeImpl._step (/Users/minhvo/Documents/Playwright-Test-Runner-TypeScript/node_modules/@playwright/test/lib/testType.js:214:7)
+        at /Users/minhvo/Documents/Playwright-Test-Runner-TypeScript/tests/toggleProductColour.test.ts:21:3
+        at WorkerRunner._runTestWithBeforeHooks (/Users/minhvo/Documents/Playwright-Test-Runner-TypeScript/node_modules/@playwright/test/lib/workerRunner.js:499:7)
+
+    attachment #1: trace (application/zip) ---------------------------------------------------------
+    test-results/toggleProductColour-Toggle-between-the-colours-of-the-Product-Toggle-Workflow-Test-Chrome-retry1/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/toggleProductColour-Toggle-between-the-colours-of-the-Product-Toggle-Workflow-Test-Chrome-retry1/trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: screenshot (image/png) ----------------------------------------------------------
+    test-results/toggleProductColour-Toggle-between-the-colours-of-the-Product-Toggle-Workflow-Test-Chrome-retry1/test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+
+</failure>
+<system-out>
+
+[[ATTACHMENT|../test-results/toggleProductColour-Toggle-between-the-colours-of-the-Product-Toggle-Workflow-Test-Chrome/trace.zip]]
+
+[[ATTACHMENT|../test-results/toggleProductColour-Toggle-between-the-colours-of-the-Product-Toggle-Workflow-Test-Chrome/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/toggleProductColour-Toggle-between-the-colours-of-the-Product-Toggle-Workflow-Test-Chrome-retry1/trace.zip]]
+
+[[ATTACHMENT|../test-results/toggleProductColour-Toggle-between-the-colours-of-the-Product-Toggle-Workflow-Test-Chrome-retry1/test-failed-1.png]]
+
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
